@@ -44,7 +44,7 @@ app.get("/contact",(req,res)=> {
 })
 app.get("*",(req,res)=> {
    // res.status(400).render("404",{chanelname:"Kamal",aboutus:"About Us"});
-   res.render("404",{errorcomment:'oops page not found'});
+   res.render("404",{errorcomment:'oops page not found click here'});
 })
 
 
